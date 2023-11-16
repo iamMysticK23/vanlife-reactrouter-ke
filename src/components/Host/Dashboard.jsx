@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState, useEffect } from "react"
-import { BsStarFill } from "react-icons/bs"
+
 
 // internal imports
 import { getHostVans } from "../../api"
@@ -57,7 +57,7 @@ export default function Dashboard() {
             <section className="host-dashboard-reviews">
                 <h2>Review score</h2>
 
-                <BsStarFill className="star" />
+               
 
                 <p>
                     <span>5.0</span>/5
